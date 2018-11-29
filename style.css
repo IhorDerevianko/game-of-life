@@ -1,0 +1,16 @@
+#back {
+    position: absolute;
+    z-index: 1;
+}
+
+#front {
+    position: absolute;
+    z-index: 0;
+    border-right: solid 1px #888;
+    border-bottom: solid 1px #888
+}
+
+.container {
+    display: inline-flex;
+    flex-direction: column;
+}
